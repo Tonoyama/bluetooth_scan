@@ -7,7 +7,7 @@ devices = scanner.scan(3)
 
 count = 0
 for i in devices:
-    addr = device.addr
+    addr = i.addr
     count += 1
 
 def post_message(addr, count):
